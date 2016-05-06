@@ -62,4 +62,10 @@ from sales
 where sales_date between '15-jan-01' and '15-jan-10';
 
 
+select last_day(sales_date)
+from sales;
+
+select add_months(sales_date,11)
+from sales;
+
         
